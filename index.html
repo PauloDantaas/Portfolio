@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Pagr</title>
+        <link rel="stylesheet" href="./assets/css/elements.css">
+        <link rel="stylesheet" href="./assets/css/variables.css">
+        <link rel="stylesheet" href="./assets/css/classes.css">
+        <link rel="stylesheet" href="./assets/css/menu.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!-- Menu para mobile -->
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
+        
+        <aside class="menu white-bg">
+            <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">
+                    <img src="./assets/img/logo.png" width="50" height="50">
+                </a>
+            </h1>
+            
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">Certificação</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#grid-two">Habilidades</a></li>
+                    <li><a href="#sobre-me">Sobre</a></li>
+                    <li><a href="#contact" >Contato</a></li>
+                    <li><a href="https://github.com/PauloDantaas" target="_blank">
+                        <img src="./assets/img/github.png" width="35" height="35">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/paulo-dantas-72b252186/" target="_blank">
+                        <img src="./assets/img/linkedin.png" width="35" height="35">
+                    </a></li>
+                    <li><a href="https://www.instagram.com/paullodantaas_yh/" target="_blank">
+                        <img src="./assets/img/Instagram.png" width="35" height="35">
+                    </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        </aside>
+        
+        <div class="menu-spacing"></div>
+        
+        <section id='home' class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                <h2>Oi, Eu sou Paulo <span>Dantas</span></h2>
+                <p>Estudante em Dev full-stack e Análise e Desenvolvimento de Sistemas, Skills <span class="skils-paragrafo">Python, Html, Css, JavaScript, Mysql</span>
+                    </p>
+                </div>
+                
+                <div class="intro-img">
+                    <img src="./assets/img/js.svg" alt="imagem svg contendo 3 pessoas , um homem segurando o logo do css3, uma mulher empurrando o logo do Js para a direita e um outro homem empurrando tambem um logo do html5 para a esquerda.">
+                </div>
+            </div>
+        </section>
+        
+        <section id="intro" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>Bem-vindo ao meu portfólio!</h2>
+                <p>Aqui, você encontrará um compilado do meu trabalho e das habilidades que tenho desenvolvido ao longo do tempo.
+                    Meu objetivo é demonstrar meu progresso como desenvolvedor e compartilhar os projetos nos quais tenho trabalhado.</p>
+                <p>Minha jornada começou com um interesse genuíno em tecnologia e, à medida que aprendi mais sobre o desenvolvimento de sistemas,
+                    me apaixonei pela arte de criar soluções funcionais e inovadoras. <span class="destacar-frase">Através do curso na Infinity School</span> , obtive uma visão
+                    abrangente do desenvolvimento full stack, o que me permitiu criar aplicações completas e interativas.</p>
+                <p>Além disso, minha curiosidade e vontade de aprender continuamente me impulsionam a explorar novas tecnologias e práticas
+                    recomendadas do setor. Eu gosto de trabalhar em equipe, onde posso colaborar com outros profissionais e compartilhar
+                    conhecimentos para alcançar resultados excelentes.Estou determinado a enfrentar qualquer desafio e utilizar minhas
+                    habilidades em programação para contribuir positivamente em projetos significativos.</p>
+                <p>Espero que este acréscimo reflita ainda mais minha dedicação ao desenvolvimento
+                    e minha disposição para expandir meus horizontes na área de tecnologia. Agradeço novamente por visitar minha página
+                     e estou ansioso para compartilhar minha jornada com você!</p>
+                
+            </div>
+        </section>
+
+        <section id='grid-one' class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Certificados</h2>
+                <p class="grid-description">Principais</p>
+
+                <div class="grid">
+                    <article>
+                        <div class="img-grid certificado1">
+                            <img src="./assets/img/international.png">
+                         </div>
+                        
+                    </article>
+                    <article> 
+                        <div class="img-grid certificado2">
+                            <img src="./assets/img/workShop.jpg">
+                         </div>
+                    </article>
+                    <article>
+                        <div class="img-grid certificado3">
+                            <img src="./assets/img/Carta de recomendação.png">
+                         </div>
+                    </article>
+                    <article>
+                        <div class="img-grid certficado4">
+                            <img src="./assets/img/certificado_digital.jpg">
+                         </div>
+                    </article>
+                <div>
+            </div>
+        </section>
+        
+        
+        <section id='gallery' class="grid-one white-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Galeria</h2>
+                <p class="grid-description">Principais projetos</p>
+
+                <div class="grid">
+                    <div class="gallery-img">
+                       <a href="https://github.com/PauloDantaas/Tela_Login_RestOriental/blob/main/main.py" target="_blank"><img src="./assets/img/restaurant.png" alt="imagem do projeto em python" title='Python-Tkinter'/></a>
+                    </div>
+                    <div class="gallery-img">
+                        <a href="https://chuvahtmlcss.netlify.app/" target="_blank"><img src="./assets/img/boy.jpg" alt="projeto em html css nevando" title="HTML e CSS"/></a>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash"/>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash"/>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash"/>
+                    </div>
+                    <div class="gallery-img">
+                        <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash"/>
+                    </div>
+                <div>
+            </div>
+        </section>
+
+        <section id='grid-two' class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Habilidades</h2>
+                <p class="grid-description">Principais</p>
+
+                <div class="grid">
+                    <article>
+                        <div class="skills-img">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="img python"> 
+                            <h3>Python</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="skills-img">
+                            <img src="./assets/img/html5-original.svg" alt="img html">
+                            <h3>html 5</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="skills-img">
+                            <img src="./assets/img/css3-original.svg" alt="img css">
+                            <h3>css 3</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="skills-img">
+                            <img src="./assets/img/javascript-original.svg" alt="img javascript">
+                            <h3>javascript</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="skills-img">
+                            <img src="./assets/img/mysql-original.svg" alt="img mysql">
+                            <h3>mysql</h3>
+                        </div>
+                    </article>
+                <div>
+            </div>
+        </section>
+
+        <!--
+        <section id="pricing" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>Pricing</h2>
+                <p>Software developers invent the technologies we sometimes take for granted. 
+                    For instance, that app that rings, sings or buzzes you out of a deep sleep every morning? A software developer helped design that. 
+                    And when you roll into the office and turn on your computer, clicking and scrolling through social media, music and your personal calendar – 
+                    software developers had a big hand in shaping those, too.</p>
+                <p>Nurse practitioners are registered nurses with additional education. Extra schooling allows these professionals to take patient histories,
+                    perform physical exams, order labs, analyze lab results, prescribe medicines, authorize treatments and educate patients and families on continued care.</p>     
+                <div class="responsive-table">
+                    <table>
+                        <caption>Pricing table</caption>
+
+                        <thead>
+                            <tr>
+                                <th>Title 1</th>
+                                <th>Title 2</th>
+                                <th>Title 3</th>
+                                <th>Title 4</th>
+                                <th>Title 5</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                                <td>Content 4</td>
+                                <td>Content 5</td>
+                            </tr>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                                <td>Content 4</td>
+                                <td>Content 5</td>
+                            </tr>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                                <td>Content 4</td>
+                                <td>Content 5</td>
+                            </tr>
+
+                            <tfoot>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Testando</td>
+                                </tr>
+                            </tfoot>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        -->
+        <section id="sobre-me" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>Sobre Mim !</h2>
+                <p>Olá! Meu nome é Paulo Dantas tenho 26 anos e sou estudante de Análise e Desenvolvimento de Sistemas.
+                    Recentemente, concluí um curso de <span class="destacar-frase">Desenvolvedor Full Stack na Infinity School</span>,
+                    onde aprimorei minhas habilidades em diversas linguagens, como  <span class="destacar-frase">Python, HTML, CSS, JavaScript, MySQL</span>.</p>
+                <p>Estou animado com minha jornada no mundo do desenvolvimento e estou buscando oportunidades para ingressar no mercado de trabalho.
+                     Apesar de ainda estar aprendendo, tenho uma paixão genuína pela resolução de problemas por meio da programação e estou disposto a enfrentar novos desafios. </p>
+                <p>Além de minha formação acadêmica e do curso na Infinity School, também participei de diversos projetos práticos e atividades extracurriculares que me permitiram 
+                    aplicar meus conhecimentos de forma concreta. Essas experiências me proporcionaram uma visão abrangente de como a tecnologia pode transformar e melhorar a vida das pessoas.
+                    Estou entusiasmado em continuar aprimorando minhas habilidades e em contribuir para projetos que tenham um impacto positivo na sociedade.</p>
+                
+            </div>
+        </section>
+        <section id='contact' class="intro main-bg section">
+                <div class="main-content intro-content">
+                    <div class="intro-text-content">
+                        <h2>Contato</h2>
+                        <p>Se você estiver interessado em colaborar em projetos ou tiver oportunidades de trabalho,
+                            fique à vontade para entrar em contato comigo. Estou sempre aberto a novas parcerias e desafios emocionantes!</p>
+                    </div>
+                            
+                    <div class="intro-img">
+                        <img src="./assets/img/js.svg" alt="imagem svg contendo 3 pessoas.">
+                    </div>
+                    <form action="https://formsubmit.co/ajax/s10paulo62@gmail.com" method="POST">
+                        <div class="contact-form">
+                            <fieldset class="form-grid">
+                                <legend>Contact me</legend>
+                                <div class="form-group">
+                                    <label for="first-name">Nome</label>
+                                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name">Sobrenome</label>
+                                    <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                                </div>
+                                        
+                                <div class="form-group full-width">
+                                    <label for="message">Mensagem</label>
+                                    <textarea name="message" id="message" cols='30' rows="10" placeholder="Sua Messagem" required></textarea>
+                                </div>
+                                        
+                                <div class="form-group full-width">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </fieldset>
+                                
+                        </div>
+                    </form>
+                </div>
+            
+        </section>
+
+        <footer id="footer" class="footer white-bg">
+            <p><a rel="nofollow" target="_blank" href="#">by Paulo Dantas</a></p>
+        </footer>
+        <a class="back-to-top" href="#">☝</a>
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
