@@ -251,7 +251,18 @@ font-family: 'Open Sans', sans-serif;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
     border: 0.1rem solid var(--primary-color);
     font-size: 25px;
-}   
+}
+.sucess,
+.error{
+    text-align: center;
+}
+
+.success{
+    color: greenyellow;
+}
+.error{
+    color: tomato;
+}
 
 @media(max-width: 800px){
     .intro-content, .grid{
